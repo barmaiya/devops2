@@ -6,21 +6,18 @@ provider "aws"{
 
 #create ec2 instance
 resource "aws_instance" "Node1"{
-    ami =""
-    type="t2.micro"
-    region  = "ap-south-1"
+    ami ="ami-041d6256ed0f2061c"
+    instance_type="t2.micro"
 }
 
 #create ec2 instance
-resource "aws_instance" "Node2"{
-    ami =""
-    type="t2.micro"
-    region  = "ap-south-1"
+resource "aws_instance" "Node1"{
+    ami ="ami-041d6256ed0f2061c"
+    instance_type="t2.micro"
 }
 
 #create ec2 instance
-resource "aws_instance" "Node3"{
-    ami =""
-    type="t2.micro"
-    region  = "ap-south-1"
+resource "aws_instance" "Node1"{
+    ami ="ami-041d6256ed0f2061c"
+    instance_type="t2.micro"
 }
